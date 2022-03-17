@@ -4,7 +4,7 @@ import { Text } from '@chakra-ui/layout';
 
 const About = () => {
   return (
-    <Flex justifyContent="space-around" bg="gray.200" mg={3}>
+    <Flex justifyContent="space-around" bg="gray.200" mg={3} minHeight="35vh">
       <Box>
         <VStack>
           <Heading> About Me </Heading>
@@ -16,7 +16,7 @@ const About = () => {
       </Box>
 
       <Box>
-        <Img src="/ImgMe.png" boxSize="150px" />
+        <Img src="/ImgMe.png" boxSize="35vh" />
       </Box>
     </Flex>
   );
