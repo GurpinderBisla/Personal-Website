@@ -2,7 +2,7 @@ import { Box, HStack, Spacer } from '@chakra-ui/layout';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 import { Heading } from '@chakra-ui/layout';
 import { Button } from '@chakra-ui/button';
-import { Text } from '@chakra-ui/layout';
+import { Text, Link } from '@chakra-ui/layout';
 
 const Header = () => {
   return (
@@ -16,9 +16,11 @@ const Header = () => {
         <Heading letterSpacing="tighter"> Gurpinder Bisla</Heading>
 
         <Spacer />
-        <Button variant="ghost" bgSize>
-          <Text fontWeight="bold">Github</Text>
-        </Button>
+        <Link href="https://github.com/GurpinderBisla">
+          <Button variant="ghost" bgSize>
+            <Text fontWeight="bold">Github</Text>
+          </Button>
+        </Link>
         <ColorModeSwitcher />
       </HStack>
     </Box>
