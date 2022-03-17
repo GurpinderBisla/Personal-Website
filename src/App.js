@@ -4,12 +4,14 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Header from './Components/Header';
 import About from './Components/About';
+import Resume from './Components/Resume';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Header />
       <About />
+      <Resume />
     </ChakraProvider>
   );
 }
